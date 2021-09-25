@@ -1,0 +1,187 @@
+header{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Jockey One', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border:0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+html{
+  min-height: 100%;
+  position: relative;
+}
+  
+body{
+ 
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    position: fixed;
+    top:0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+header h1{
+    font-size:42px;
+    color: white;
+    line-height: 230px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+header nav{
+    top: 0px;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: rgba(106, 27, 179, 0.959);
+}
+header nav a{
+    color:white;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header nav a:hover{
+    background-color: rgba(218, 207, 207, 0.2);
+}
+p{
+    margin-bottom: 2rem;
+    
+}
+
+.contact_form{  
+  width: 500px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfbb6; 
+  padding-left: 30px; 
+  box-shadow: 7px 13px 30px black
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #722b9b; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #7a28aa; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 46px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #9e2ec0; 
+  border-color: #fafafa; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #6623a5;
+  font-family: sans-serif;
+}
+h2{
+  color: #a8a8a8;
+}
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}

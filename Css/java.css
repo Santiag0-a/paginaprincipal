@@ -1,0 +1,20 @@
+#caja{
+    height: 200px;
+    width: 200px;
+
+    border:solid 1px crimson;
+}
+.line{
+    width: 100px;
+}
+button{
+    width: 100px;
+}
+td{
+    padding: 5px;
+}
+#cuadro{
+    position: absolute;
+    right: 550px;
+    
+}

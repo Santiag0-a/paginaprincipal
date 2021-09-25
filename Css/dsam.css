@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+#menu{
+    width: 100%;
+    font-family: 'Staatliches', cursive;
+    margin: auto;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    font-size: 25px;  
+}
+ul{
+    list-style: none;
+}
+.menu1 > li {
+    float: left;
+}
+.menu1 li a{
+    padding: 30px 50px;
+    background-color: black;
+    color: #2F0EB3;
+    text-decoration: none;
+    display: block;
+}
+#santi{
+    font-family: 'Jockey One', sans-serif;
+    position: absolute;
+    top: 250px;
+    right: 500px;
+    font-size: 120px;
+    color:#BFCFD9;
+    text-shadow: rgb(255, 255, 255) 3px 3px ;
+}
+.texto{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 450px;
+    right: 580px;
+    color: #BFCFD9;
+}
+.registro{
+    font-family:'Staatliches', cursive ;
+    background-color:#2F0EB3 ;
+    color: #BFCFD9;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+.menu1 li a:hover{
+    border-radius: 30px;
+    background-color: rgba(137, 43, 226, 0.281);
+
+}
